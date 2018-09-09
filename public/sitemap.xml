@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/docker/elk/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/docker/private-registry/</loc>
+    <lastmod>2014-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/shipyard/container-recovery/</loc>
+    <lastmod>2013-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/shipyard/ui-refresh/</loc>
+    <lastmod>2013-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</loc>
+    <lastmod>2013-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/shipyard/attach-containers/</loc>
+    <lastmod>2013-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/shipyard/applications/</loc>
+    <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/tags/devops/</loc>
+    <lastmod>2013-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/categories/devops/</loc>
+    <lastmod>2013-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/tags/docker/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/categories/docker/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/tags/logstash/</loc>
+    <lastmod>2013-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/posts/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/tags/shipyard/</loc>
+    <lastmod>2013-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/categories/shipyard/</loc>
+    <lastmod>2013-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanhazlett.com/tags/</loc>
+    <lastmod>2013-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

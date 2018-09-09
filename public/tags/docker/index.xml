@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on @ehazlett</title>
+    <link>https://evanhazlett.com/tags/docker/</link>
+    <description>Recent content in Docker on @ehazlett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Nov 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://evanhazlett.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logging with ELK and Docker</title>
+      <link>https://evanhazlett.com/posts/docker/elk/</link>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/docker/elk/</guid>
+      <description>Elasticsearch, Logstash and Kibana (known as the &amp;ldquo;ELK&amp;rdquo; stack) provide the ability to visualize data from any source. This is a follow up to my previous Logstash post. This is updated with the latest versions of the components and &amp;ldquo;dockerized&amp;rdquo; for easy use and deployment.
+Elasticsearch Elasticsearch is a distributed, real-time, indexed datastore. It uses Lucene at its core to provide full text search functionality. It is schema free meaning you can throw any type of data at it.</description>
+    </item>
+    
+    <item>
+      <title>Docker Private Registry</title>
+      <link>https://evanhazlett.com/posts/docker/private-registry/</link>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/docker/private-registry/</guid>
+      <description>One of the best features in Docker is the ability to build and share images. The public Docker index is a great place to find and share images. However, if you want to have a private registry that is in your control (inside the firewall, etc.) this is where the Docker Registry shines.
+The Docker Registry is an application that powers the public index. The Docker team has put a lot of work into making it easy to run a standalone registry.</description>
+    </item>
+    
+    <item>
+      <title>Logstash and Kibana via Docker</title>
+      <link>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</link>
+      <pubDate>Wed, 28 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</guid>
+      <description>Logstash is an amazing log management application. Backed by ElasticSearch, it collects, parses, and indexes logs. Kibana is an alternative UI for searching and analyzing the log data in elasticsearch sent via logstash. Version 3 of Kibana is beautiful and revamped to require little configuration if using ElasticSearch. Here is a quick way to build out a distributed logging platform using Docker.
+At Arcus, we are all in with Docker and have several repositories for various applications and services.</description>
+    </item>
+    
+  </channel>
+</rss>

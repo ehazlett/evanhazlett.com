@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@ehazlett</title>
+    <link>https://evanhazlett.com/</link>
+    <description>Recent content on @ehazlett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Nov 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://evanhazlett.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logging with ELK and Docker</title>
+      <link>https://evanhazlett.com/posts/docker/elk/</link>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/docker/elk/</guid>
+      <description>Elasticsearch, Logstash and Kibana (known as the &amp;ldquo;ELK&amp;rdquo; stack) provide the ability to visualize data from any source. This is a follow up to my previous Logstash post. This is updated with the latest versions of the components and &amp;ldquo;dockerized&amp;rdquo; for easy use and deployment.
+Elasticsearch Elasticsearch is a distributed, real-time, indexed datastore. It uses Lucene at its core to provide full text search functionality. It is schema free meaning you can throw any type of data at it.</description>
+    </item>
+    
+    <item>
+      <title>Docker Private Registry</title>
+      <link>https://evanhazlett.com/posts/docker/private-registry/</link>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/docker/private-registry/</guid>
+      <description>One of the best features in Docker is the ability to build and share images. The public Docker index is a great place to find and share images. However, if you want to have a private registry that is in your control (inside the firewall, etc.) this is where the Docker Registry shines.
+The Docker Registry is an application that powers the public index. The Docker team has put a lot of work into making it easy to run a standalone registry.</description>
+    </item>
+    
+    <item>
+      <title>Shipyard: Container Recovery</title>
+      <link>https://evanhazlett.com/posts/shipyard/container-recovery/</link>
+      <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/shipyard/container-recovery/</guid>
+      <description>Continuing our push towards production grade Docker management, the latest feature released is container recovery. This allows a container to be marked as &amp;ldquo;protected&amp;rdquo; and Shipyard will start monitoring it for failures. Enabling recovery is as simple as a toggle in the container details. Here is how it works.
+Shipyard uses a queue for background tasks. With container recovery, a scheduled task runs on a specified interval that monitors the protected containers.</description>
+    </item>
+    
+    <item>
+      <title>Shipyard: UI Refresh</title>
+      <link>https://evanhazlett.com/posts/shipyard/ui-refresh/</link>
+      <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/shipyard/ui-refresh/</guid>
+      <description>Shipyard just received a significant user interface &amp;ldquo;refresh&amp;rdquo;. Behind the scenes I moved to almost all standard templating instead of so much AJAX. Visibly it has been updated to Bootstrap3 and has more polish. Pages like container details have more information and it is not quite so bland.
+Here are a few screenshots:
+Login Containers Container Details &amp;hellip;more screenshots on Github&amp;hellip;
+With the refresh I wanted to add a better base feel to it.</description>
+    </item>
+    
+    <item>
+      <title>Logstash and Kibana via Docker</title>
+      <link>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</link>
+      <pubDate>Wed, 28 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</guid>
+      <description>Logstash is an amazing log management application. Backed by ElasticSearch, it collects, parses, and indexes logs. Kibana is an alternative UI for searching and analyzing the log data in elasticsearch sent via logstash. Version 3 of Kibana is beautiful and revamped to require little configuration if using ElasticSearch. Here is a quick way to build out a distributed logging platform using Docker.
+At Arcus, we are all in with Docker and have several repositories for various applications and services.</description>
+    </item>
+    
+    <item>
+      <title>Shipyard: Container Attaching</title>
+      <link>https://evanhazlett.com/posts/shipyard/attach-containers/</link>
+      <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/shipyard/attach-containers/</guid>
+      <description>One of the great features of Docker is the ability to run interactive containers. You can attach to a container which connects you to a terminal. From there it is just like any other virtual machine or instance. I have wanted something like this in Shipyard since I started it, but it was on the back burner. Until a few days ago.
+ukd1 had mentioned in #docker that they were building a web based terminal utilizing websockets to attach to containers from the browser.</description>
+    </item>
+    
+    <item>
+      <title>Shipyard: Applications</title>
+      <link>https://evanhazlett.com/posts/shipyard/applications/</link>
+      <pubDate>Tue, 09 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/shipyard/applications/</guid>
+      <description>The next major feature for Shipyard is &amp;ldquo;applications&amp;rdquo;. These are a collection of containers that are accessible by a domain name. Shipyard uses Hipache for the frontend load balancer.
+Using Shipyard, you can launch a set of containers that expose a backend port. You can then create an &amp;ldquo;application&amp;rdquo; which configures Hipache and routes traffic to all containers in that app on the container backend port. Configuration is automatic and you can have multiple containers across multiple hosts and Hipache will balance and direct traffic to them.</description>
+    </item>
+    
+  </channel>
+</rss>

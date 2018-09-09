@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on @ehazlett</title>
+    <link>https://evanhazlett.com/categories/devops/</link>
+    <description>Recent content in Devops on @ehazlett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://evanhazlett.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logstash and Kibana via Docker</title>
+      <link>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</link>
+      <pubDate>Wed, 28 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://evanhazlett.com/posts/devops/logstash-kibana-via-docker/</guid>
+      <description>Logstash is an amazing log management application. Backed by ElasticSearch, it collects, parses, and indexes logs. Kibana is an alternative UI for searching and analyzing the log data in elasticsearch sent via logstash. Version 3 of Kibana is beautiful and revamped to require little configuration if using ElasticSearch. Here is a quick way to build out a distributed logging platform using Docker.
+At Arcus, we are all in with Docker and have several repositories for various applications and services.</description>
+    </item>
+    
+  </channel>
+</rss>
